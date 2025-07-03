@@ -1,0 +1,138 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+</style>
+
+
+
+
+body{
+
+	font-family: 'open-sans', sans-serif;
+	background: aliceblue;
+}
+
+img{
+	max-width: 100%;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+
+}
+header{
+    padding-top: 15px;
+}
+.container{
+    width: calc(100% - 100px);
+    margin: auto;
+  
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.col1{
+    width: 100%;
+    flex: 0 0 auto;
+    padding: 60px;
+}
+.col2{
+    width: 50%;
+    flex: 0 0 auto;
+    padding: 60px;
+}
+.logo{
+    width: 20%;
+    flex: 0 0 auto;
+}
+.logo a{}
+
+nav{
+    width: 80%;
+}
+nav ul{
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    font-size: 14px;
+    transition-duration: 1s;
+}
+nav ul li a:hover{
+    background: black;
+    color: white;
+}
+
+.banner{
+  
+}
+.banner img{
+    padding-top: 25px;
+}
+.blog{}
+
+article{}
+article span{color: #26202091;display: block;margin-top: 15px;}
+article h1{
+    font-size: 25px;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+article p{
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+article a{
+    color: #26202091;
+}
+article h1 a{
+    color: #26202091;
+    color: black;
+    font-weight: 400;
+}
+article a:hover{}
+article img{
+    width: 100%;
+}
+footer .col2{
+    padding: 20px 40px;
+}
+footer{}
+footer .col2{}
+ul.footer-menu {}
+ul.footer-menu li{}
+ul.footer-menu li a{
+    padding: 0px 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+ul.footer-menu li a:hover{
+	opacity: 0.5;
+} 
+
+ul.icon {
+    justify-content: flex-end;
+    text-align: center;
+} 
+ul.icon li{}
+ul.icon li a {
+    padding: 0px 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+ul.icon li a:hover {
+	opacity: 0.5;
+}
+
